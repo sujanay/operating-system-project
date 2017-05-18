@@ -94,8 +94,9 @@ class VDIFile
 			cout << setw(width)  << right << "BLOCKS ALLOCATED: " << dec << vh.blocks_allocated << endl;
 			cout << endl;
 		//	cout << "*******************************************************************************"<< endl;
-	 	
-		}
+
+	}
+
 
 		//--------------------vdi translate function---------------------//
 
