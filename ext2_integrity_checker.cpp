@@ -94,12 +94,7 @@ class VDIFile
 			cout << setw(width)  << right << "BLOCKS ALLOCATED: " << dec << vh.blocks_allocated << endl;
 			cout << endl;
 		//	cout << "*******************************************************************************"<< endl;
-	 	//code for displaying the map, uncomment if you need to display the map		
-			/*for(int i=0; i<128;i++)
-			  {
-				cout << "map[" << i << "]" << setw(width-5) << right << *(map+i)<< endl;				
-			  }
-			*/
+	 	
 		}
 
 		//--------------------vdi translate function---------------------//
@@ -130,32 +125,6 @@ class VDIFile
 	  		//cout<<"I am closing...!!!"<<endl;
 		}		
 };
-
-/*
-code for finding inode
-u32 fetchInode(VDIFile* vf, u32 i, u8* buf)
-{
-
-  i--;
-  u32 groupNumber,
-      inodePerBlockGroup,
-      start,
-      inodePerBlock,
-      blockNumber;
-
- 	 groupNumber=i/inodePerBlockGroup;   
-	 i=i%inodePerBlockGroup;  		
-	 start=bgdt[groupNumber];	
- 	 blockNumber=start+(i/inodePerBlock);			
- 	 i=i%inodePerBlock;
-	
-   u8 buf[blockSize];		
-	fetchBlock(vf, buf, blockNum);  
-
-//Treat the block as inode array---->>>[i] is the inode
-
-}
-*/
 
 void fetchBlock(VDIFile* vf, u8* buf, u32 b)
 {
@@ -398,39 +367,6 @@ int main(int argc, char* argv[])
 		break;	
 	}
     }
-
-/*
-fetchBlockFromFile(int b, int* i_block, u8* dest)
-{
-	int *list;
-	
-	if(b<12){
-		    list=i_block;
-		    goto direct;
-		}else if(b<12+addrPerBlock(apb)){
-				list=i_block+12;
-				b-=12;
-				goto single;
-			}else if(b<12+apb*(1+apb)){
-				list=i_block+13;
-				b-=12+apb;
-				goto double1;
-			}else{
-				fetchBlock(i_block[14]);
-				b-=12+apb*(1+apb);
-}
-double1:
-	fetchBlock(list[b/apb/apb],temp);
-	list=temp;
-	b%=apb*apb;
-single:
-	fetchBlock(list[b/apb],temp);
-	list=temp;
-	b%=apb;
-direct:
-	fetchBlock(list[b],dest);
-}
-*/
 
 	vf.vdiClose();
 	return 0;
