@@ -19,7 +19,7 @@ This program displays the following general statistics about the filesystem:
 • State of the filesystem
 
 This program also check the following items:
-• The appropriate magic number of the superblock.
+• The appropriate magic number of the superblock
 • All copies of the superblock must be consistent (spoiler alert)
 • All copies of the block group table must be consistent (see ab)
 
