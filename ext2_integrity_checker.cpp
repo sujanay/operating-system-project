@@ -94,13 +94,8 @@ class VDIFile
 			cout << setw(width)  << right << "BLOCKS ALLOCATED: " << dec << vh.blocks_allocated << endl;
 			cout << endl;
 		//	cout << "*******************************************************************************"<< endl;
-	 	//code for displaying the map, uncomment if you need to display the map		
-			/*for(int i=0; i<128;i++)
-			  {
-				cout << "map[" << i << "]" << setw(width-5) << right << *(map+i)<< endl;				
-			  }
-			*/
-		}
+
+	}
 
 		//--------------------vdi translate function---------------------//
 
@@ -130,32 +125,6 @@ class VDIFile
 	  		//cout<<"I am closing...!!!"<<endl;
 		}		
 };
-
-/*
-code for finding inode
-u32 fetchInode(VDIFile* vf, u32 i, u8* buf)
-{
-
-  i--;
-  u32 groupNumber,
-      inodePerBlockGroup,
-      start,
-      inodePerBlock,
-      blockNumber;
-
- 	 groupNumber=i/inodePerBlockGroup;   
-	 i=i%inodePerBlockGroup;  		
-	 start=bgdt[groupNumber];	
- 	 blockNumber=start+(i/inodePerBlock);			
- 	 i=i%inodePerBlock;
-	
-   u8 buf[blockSize];		
-	fetchBlock(vf, buf, blockNum);  
-
-//Treat the block as inode array---->>>[i] is the inode
-
-}
-*/
 
 void fetchBlock(VDIFile* vf, u8* buf, u32 b)
 {
