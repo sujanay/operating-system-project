@@ -29,14 +29,14 @@ This program works fine for 1KB, 2KB and 4KB block sizes.
 
 # Introduction
 
+https://www.gnu.org/software/libc/manual/html_node/Opening-and-Closing-Files.html#Opening-and-Closing-Files
 
 
-
-
+[fhasldfhadf](sujanay.com)
 
 
 # References
-- https://www.gnu.org/software/libc/manual/html_node/Opening-and-Closing-Files.html#Opening-and-Closing-Files
+- [https://www.gnu.org/software/libc/manual/html_node/Opening-and-Closing-Files.html#Opening-and-Closing-Files]
 - https://forums.virtualbox.org/viewtopic.php?t=8046
 - https://www.virtualbox.org/manual/ch05.html
 - https://www.dropbox.com/s/2uoj0ojxox6uvze/Operating%20systems%20%28Deitel%29%20%283rd%20edition%29%281%29.pdf?dl=0
