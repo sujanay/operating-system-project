@@ -24,7 +24,9 @@ This program also check the following items:
 - All copies of the block group table must be consistent
 
 This program works fine for 1KB, 2KB and 4KB block sizes.
-
+# How to
+1. Get the test VDI files? [VDI Test Files](https://drive.google.com/open?id=0BwRCEG_n3G_jc1I0NkJOV3BCWHc)
+2. Compile and run the file? [How to compile.txt](operating-system-project/Files/How to compile.txt)
 # Organization of the project
 
 # Introduction
