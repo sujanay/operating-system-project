@@ -6,8 +6,6 @@
   and makes the superblock copies consistent after the test is
   run on the VDI file.
 
-<span style="color: #f2cf4a; font-family: Babas; font-size: 2em;">INSPIRATION DAY</span>
-
 #            Compiling and Running the code
 
 1. The **main()** function is inside "ext2_integrity_checker.cpp" file
