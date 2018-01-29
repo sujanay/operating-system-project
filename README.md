@@ -36,13 +36,13 @@ There are a total of five files, four **header** files and one **.cpp**, file fo
 - **mbr.h**
 - **vdiHeader.h**
 
-The **main()** function is in the **ext2_integrity_checker.cpp** file. The **main()** function 
-
-# Introduction
-
-
-
-
+The **main()** function is in the **ext2_integrity_checker.cpp** file. The **main()** function does the following:
+> Reads the **VDI** file in an object of **VDIFile** class
+> Displays the **VDI Header Information**
+> Reads the **Master Boot Record (MBR)**'s content grabs the **Magic Number** and displays it.
+> Reads the **Superblock**'s **MAGIC** number and conforms to be equal to **0xef53**.
+> Finally, reads the **ext2** filesystem and displays information such as **Total filesystem size**, **Number of files**,
+> **Number of Directories**, etc.
 
 
 # References
