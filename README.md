@@ -1,16 +1,16 @@
 # operating system project
 
-#### GOAL: Develop a program that checks the integrity of an ext2 filesystem, 
-####     reporting any errors found and possibly correcting the errors.
+** GOAL: Develop a program that checks the integrity of an ext2 filesystem, 
+reporting any errors found and possibly correcting the errors.**
 
 This program examines a VDI (Virtual Disk Image) file containing a virtual disk with a single 
 partition formatted as an ext2 filesystem. The filename of the file to be examined is given on 
 the command line.
       
 This program displays the following general statistics about the filesystem:
-• Total filesystem size in bytes
-• Size available for files (used and unused)
-• Amount of space currently used
+1. Total filesystem size in bytes
+2. Size available for files (used and unused)
+3. Amount of space currently used
 • Number of possible files and directories (number of inodes)
 • Number of existing files
 • Number of existing directories
