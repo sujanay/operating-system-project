@@ -49,7 +49,7 @@ The **main()** function is in the **ext2_integrity_checker.cpp** file. The **mai
 This project was accomplished for the partial fulfilment of **Operating Systems** course. So, there are several issues with
 the codes in the project such as:
 > 1. It does not implement counting the **inodes** and **directories** in the filesystem.
-> 2. The code is not very clean.
+> 2. The code is not very clean :)
 
 Therefore, this project can be extended to overcome the above mentioned issues.
 
