@@ -45,6 +45,15 @@ The **main()** function is in the **ext2_integrity_checker.cpp** file. The **mai
 > 5. Finally, reads the **ext2** filesystem and displays information such as **Total filesystem size**, **Number of files**,
 > **Number of Directories**, etc.
 
+# Future Enhancements
+This project was accomplished for the partial fulfilment of **Operating Systems** course. So, there are several issues with
+the codes in the project such as:
+> 1. It does not implement counting the **inodes** and **directories** in the filesystem.
+> 2. The code is not very clean.
+
+Therefore, this project can be extended to overcome the above mentioned issues.
+
+
 # Acknowledgement
 I would like to thank **Dr. Kramer** (Youngstown State University) for giving us the opportunity to do this project.
 
