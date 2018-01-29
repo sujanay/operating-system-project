@@ -24,6 +24,7 @@ This program also check the following items:
 - All copies of the block group table must be consistent
 
 This program works fine for 1KB, 2KB and 4KB block sizes.
+
 # How to
 1. Get the test VDI files? [VDI Test Files](https://drive.google.com/open?id=0BwRCEG_n3G_jc1I0NkJOV3BCWHc)
 2. Compile and run the file? see **How to compile.md** inside **File** Folder
@@ -44,6 +45,8 @@ The **main()** function is in the **ext2_integrity_checker.cpp** file. The **mai
 > 5. Finally, reads the **ext2** filesystem and displays information such as **Total filesystem size**, **Number of files**,
 > **Number of Directories**, etc.
 
+# Acknowledgement
+I would like to thank **Dr. Kramer** (Youngstown State University) for giving us the opportunity to do this project.
 
 # References
 - [The Second Extended File System (a.k.a. ext2 file system)](http://www.nongnu.org/ext2-doc/ext2.html)
