@@ -29,8 +29,14 @@ This program works fine for 1KB, 2KB and 4KB block sizes.
 2. Compile and run the file? see **How to compile.txt** inside **File** Folder
 
 # Organization of the project
-There are a total of five files for this project inside **File** folder - **ext2_integrity_checker.cpp**
-**datatypes.h**, **ext2.h**, **mbr.h**, **vdiHeader.h**.
+There are a total of five files, four **header** files and one **.cpp** file for this project inside **File** folder:
+- **ext2_integrity_checker.cpp**
+- **datatypes.h**
+- **ext2.h**
+- **mbr.h**
+- **vdiHeader.h**
+
+The **main()** function is ins
 
 # Introduction
 
