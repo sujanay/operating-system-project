@@ -35,6 +35,7 @@ This program works fine for 1KB, 2KB and 4KB block sizes.
 
 
 # References
+- [The Second Extended File System (a.k.a. ext2 file system)](http://www.nongnu.org/ext2-doc/ext2.html)
 - [GNU low-level I/O](https://www.gnu.org/software/libc/manual/html_node/Opening-and-Closing-Files.html#Opening-and-Closing-Files)
 - [Virtualbox Forum](https://forums.virtualbox.org/viewtopic.php?t=8046)
 - [Virtualbox manual](https://www.virtualbox.org/manual/ch05.html)
