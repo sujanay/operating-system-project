@@ -26,17 +26,17 @@ This program also check the following items:
 This program works fine for 1KB, 2KB and 4KB block sizes.
 # How to
 1. Get the test VDI files? [VDI Test Files](https://drive.google.com/open?id=0BwRCEG_n3G_jc1I0NkJOV3BCWHc)
-2. Compile and run the file? see **How to compile.txt** inside **File** Folder
+2. Compile and run the file? see **How to compile.md** inside **File** Folder
 
 # Organization of the project
-There are a total of five files, four **header** files and one **.cpp** file for this project inside **File** folder:
+There are a total of five files, four **header** files and one **.cpp**, file for this project inside **File** folder:
 - **ext2_integrity_checker.cpp**
 - **datatypes.h**
 - **ext2.h**
 - **mbr.h**
 - **vdiHeader.h**
 
-The **main()** function is ins
+The **main()** function is in the **ext2_integrity_checker.cpp** file. The **main()** function 
 
 # Introduction
 
