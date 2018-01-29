@@ -1,6 +1,6 @@
 # operating system project
 
-** GOAL: Develop a program that checks the integrity of an ext2 filesystem, 
+** GOAL:** Develop a program that checks the integrity of an ext2 filesystem, 
 reporting any errors found and possibly correcting the errors.
 
 This program examines a VDI (Virtual Disk Image) file containing a virtual disk with a single 
