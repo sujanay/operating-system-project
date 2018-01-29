@@ -11,16 +11,16 @@ This program displays the following general statistics about the filesystem:
 1. Total filesystem size in bytes
 2. Size available for files (used and unused)
 3. Amount of space currently used
-• Number of possible files and directories (number of inodes)
-• Number of existing files
-• Number of existing directories
-• Number of block groups, with the information for each block group
-• Block size in bytes
-• State of the filesystem
+3. Number of possible files and directories (number of inodes)
+4. Number of existing files
+5. Number of existing directories
+6. Number of block groups, with the information for each block group
+7. Block size in bytes
+8. State of the filesystem
 
 This program also check the following items:
-• The appropriate magic number of the superblock
-• All copies of the superblock must be consistent (spoiler alert)
-• All copies of the block group table must be consistent
+- The appropriate magic number of the superblock
+- All copies of the superblock must be consistent (spoiler alert)
+- All copies of the block group table must be consistent
 
 This program works fine for 1KB, 2KB and 4KB block sizes.
