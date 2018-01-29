@@ -10,11 +10,11 @@
 
 1. The **main()** function is inside "ext2_integrity_checker.cpp" file
 2. Compiling the **integrity_checker.cpp** file
-	~$ g++ ext2_integrity_checker.cpp
+     >	~$ g++ ext2_integrity_checker.cpp
 3. Keep the VDI test files inside the **test** folder (create one if not created)
 
 4. Testing the file
-	~$ ./a.out test/<filename>  
+     >	~$ ./a.out test/<filename>  
 
 **where "test" is the folder that has VDI test files***
 
